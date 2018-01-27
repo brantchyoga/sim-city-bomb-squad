@@ -1,0 +1,34 @@
+html,body {
+	margin:0;
+	padding:0;
+}
+
+body {
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+}
+
+.unexploded {
+	background-image: url("./img/simcity.jpg");
+}
+
+.exploded {
+	background-image: url("./img/explosion.jpg");
+}
+
+.wirebox {
+	width: 200px;
+	margin: 5% auto 5% auto;
+	background: black;
+}
+
+.timerbox {
+	color: red;
+
+}
+
+#reset {
+	width: 120px;
+}
+
